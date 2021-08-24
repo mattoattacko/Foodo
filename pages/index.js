@@ -2,6 +2,7 @@ import Head from 'next/head';
 import TopComponent from '../components/TopComponent';
 import ServiceComponent from '../components/ServiceComponent';
 import About from '../components/AboutComponent';
+import DownloadComponent from '../components/DownloadComponent';
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <TopComponent />
         <ServiceComponent />
         <About />
+        <DownloadComponent />
       </main>;
 
       <footer>

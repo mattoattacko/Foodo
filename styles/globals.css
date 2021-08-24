@@ -16,6 +16,10 @@ a {
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* Top Background */
 .background {
   background-image: url('../public/assets/bg.png');
@@ -92,4 +96,16 @@ a {
 
 .service-img {
   width: 200px;
+}
+
+/* About Component */
+.about-container-bg {
+  background-color: white;
+}
+
+.about-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

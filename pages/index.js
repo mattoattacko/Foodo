@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import TopComponent from '../components/TopComponent';
 import ServiceComponent from '../components/ServiceComponent';
+import About from '../components/AboutComponent';
+
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
       <main>
         <TopComponent />
         <ServiceComponent />
+        <About />
       </main>;
 
       <footer>

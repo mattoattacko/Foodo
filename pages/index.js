@@ -3,6 +3,7 @@ import TopComponent from '../components/TopComponent';
 import ServiceComponent from '../components/ServiceComponent';
 import About from '../components/AboutComponent';
 import DownloadComponent from '../components/DownloadComponent';
+import ContactComponent from '../components/ContactComponent';
 
 
 export default function Home() {
@@ -24,9 +25,11 @@ export default function Home() {
         <ServiceComponent />
         <About />
         <DownloadComponent />
+        <ContactComponent />
       </main>;
 
-      <footer>
+      <footer className="footer">
+      <h5>FOODO &copy; Matthew McQuain</h5>
         <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
 
         <script

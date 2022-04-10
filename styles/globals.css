@@ -91,7 +91,7 @@ a {
 }
 
 .service-container {
-  min-height: 50vh;
+  min-height: 37vh;
 }
 
 .service-img {
@@ -116,7 +116,7 @@ a {
 }
 
 .download-container {
-  min-height: 40vh;
+  min-height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,8 +127,38 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .img-download {
   width: 150px;
+}
+
+/* Contact Component */
+.contact-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container-bg {
+  background-color: rbg(255, 214, 175);
+}
+
+.fa {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+/* Footer Component */
+.footer {
+  background-color: rgb(43, 31, 20);
+  color: white;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

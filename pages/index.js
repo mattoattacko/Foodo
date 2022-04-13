@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>FOODO - Landing Page</title>
+        <title>YumCrumb! - Landing Page</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
@@ -29,7 +29,7 @@ export default function Home() {
       </main>;
 
       <footer className="footer">
-      <h5>FOODO &copy; Matthew McQuain</h5>
+      <h5>YumCrumb! &copy; West Coast Creatives, LLC.</h5>
         <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
 
         <script

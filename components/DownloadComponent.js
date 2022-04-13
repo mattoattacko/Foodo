@@ -5,10 +5,10 @@ function DownloadComponent() {
   return (
     <div className='download-container-bg'>
       <Container className='download-container'>
-        <h3>Grab Yo Grub With FOODO</h3>
+        <h3>Grab Yo Grub With YumCrumb!</h3>
         <h3>Download Our App</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget elementum magna. Curabitur libero lacus, condimentum non tortor eget, fringilla pretium nibh. Cras sit amet suscipit odio. Fusce sit amet elit nec massa dignissim tristique ut non turpis. Ut faucibus arcu a nunc condimentum interdum. Nunc convallis bibendum faucibus. Integer a leo in leo faucibus commodo nec eget sapien.
+        Explore restaurants that deliver near you, or try yummy takeout fare. With a place for every taste, it’s easy to find food you crave, and order online or through the YumCrumb! app. Find great meals fast with lots of local menus. Enjoy eating the convenient way with places that deliver to your door.
         </p>
       </Container>
       <Container className='img-download'>

@@ -9,17 +9,14 @@ function TopComponent() {
         <Container className="container-top">
           <Row className='section-top'>
             <Col xs={12} md={6} className='section-top-left'>
-              <img className="img-fluid" src='./assets/mobile.png' />
+              <img className="img-fluid" src='./assets/mobileEdit.png' />
             </Col>
             <Col xs={12} md={6} className='section-top-right shadow' >
               <div className="plate-img-container"></div>
-              <h6>FOODO</h6>
-              <h2>West Coast Creatives LLC</h2>
-              <h1>FOODO</h1>
-              <p>Have you heard the tale of Darth Matto the wise? Somebody once told me the world is gonna roll me
-                I ain't the sharpest tool in the shed
-                She was looking kind of dumb with her finger and her thumb
-                In the shape of an "L" on her forehead.
+              <h6>What you want, when you want it</h6>
+              {/* <h2>West Coast Creatives LLC</h2> */}
+              <h1>YumCrumb!</h1>
+              <p>Discover local, on-demand delivery or Pickup from restaurants, nearby grocery and convenience stores, and more. From your neighborhood sushi spot to the burger and fries you crave, choose from over 300,000 local and national favorites across the U.S., Canada and Japan.
               </p>
               <button className="btn btn-custom">Download the App!</button>
             </Col>
